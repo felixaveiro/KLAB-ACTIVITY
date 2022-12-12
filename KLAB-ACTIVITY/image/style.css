@@ -1,0 +1,139 @@
+/* 
+body {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background: #239c5c;
+    color: rgb(156, 30, 30);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    color: rgb(27, 13, 150);
+    border: none;
+    padding: 10px 40px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+td {
+    border: none;
+    padding: 5px 5px;
+    color: aliceblue;
+}
+
+thead {
+    background-color: #42a66c;
+    line-height: 20px;
+    border-radius: 4rem;
+}
+
+#contact-display {
+    margin-bottom: 15rem;
+    margin-top: 35rem;
+    margin-left: 15rem;
+    width: 750px;
+    height: 430px;
+    background: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(33, 184, 13);
+
+
+}
+
+#new-contact {
+
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+
+    background: rgb(163, 148, 148);
+    border-radius: 15px;
+}
+
+#new-contact input:focus~label,
+#new-contact input:valid~label {
+    top: -20px;
+    left: 0;
+    color: cyan;
+    font-size: 12px;
+}
+
+#new-contact button {
+    border: none;
+    outline: none;
+    background: #42a66c;
+    color: rgb(95, 18, 72);
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 80px;
+
+}
+
+#new-contact button:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+#new-contact form label {
+
+    color: aliceblue;
+    letter-spacing: 1px;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+#new-contact input {
+    color: aliceblue;
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+#new-contact form {
+    position: relative;
+    height: 300px;
+}
+
+#new-contact h2 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#new-contact h2 {
+    align-items: center;
+    justify-content: center;
+} */
