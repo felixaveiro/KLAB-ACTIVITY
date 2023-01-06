@@ -1,0 +1,18 @@
+#btn{
+    color: rgb(207, 218, 218);
+    background: rgb(153, 142, 142);
+    margin-top: 5rem;
+    margin-left: 50%;
+    text-align: center;
+    text-decoration: aliceblue;
+    font-size: 40px;
+    display: block;
+    width: 123px;
+}
+
+#result{
+    margin-left: 50%;
+    color: rgb(38, 17, 156);
+
+
+}

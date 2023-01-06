@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix hosipital management</title>
+    <link rel="stylesheet" href="contactbar.css">
+</head>
+
+<body>
+    <div class="nav_bar">
+        <a href="./homepage.html">Home</a>
+        <a href="./services.html">Service</a>
+        <a href=".contact">Contact</a>
+        <a href="./Login.html">Login</a>
+        <a href="./register.html">Registrer</a>
+    </div>
+
+    <div class="container">
+        <h1 align="center">Welcome to our hospital managment!</h1>
+        <div class="felix_container">
+
+
+        </div>
+    </div>
+    <section class="book">
+        <div class="left">
+            <form action="/nav_bar/signup.php" method="post">
+
+
+                <h1>register</h1>
+
+                <input type="text" name="fname" placeholder="Enter Your First Names" />
+                <input type="text" name="lname" placeholder="Enter Your Last Names" />
+                <input type="datetime-local" value="2020-07-04t05:00" name="date">
+
+                <select id="agencies" name="gender" placeholder="gender">
+
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">other</option>
+                </select>
+                <select id="route" name="district" placeholder="district">
+
+                    <option value="kigali">KIgali</option>
+                    <option value="musanze">Musanze</option>
+                    <option value="nyanza">nyanza</option>
+                    <option value="huye">huye</option>
+                    <option value="muhanga">muhanga</option>
+                    <option value="kamonyi">kamonyi</option>
+                    <option value="gisagara">gisagara</option>
+                    <option value="rwamagana">rwamagana</option>
+                </select>
+                <input type="text" name="email" placeholder="Enter YourE-mail" />
+                <input type="password" name="password" placeholder="Enter Your Password" />
+                <input type="password" name="password2" placeholder="Retype password" />
+
+                <button type="submit">Register</button>
+            </form>
+            <p>Already i have acount <a href="Login.html">LOGIN</a></p>
+        </div>
+       
+    </section>
+
+    <div class="footer">
+        <div class="quick">
+            <h5>Quick Links:</h5>
+            <a href="#">Home</a>
+            <a href="#index.html">Service</a>
+            <a href="./index.html">Log in</a>
+            <a href="#">Registrer</a>
+        </div>
+        <div class="subscrabe">
+            <form action="#">
+                <article><label for="">:</label>Names<input placeholder="names" type="text"></article>
+                <article><label for=""></label>email<input placeholder="email" type="text"><br></article>
+                <article><button>Subscribe</button></article>
+            </form>
+        </div>
+        <div class="comment">
+            <h5>Write your comment:</h5>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+    </div>
+</body>
+
+</html>

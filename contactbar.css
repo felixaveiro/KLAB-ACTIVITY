@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    padding: 0;
+    margin: 0;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(65, 87, 182);
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: arial;
+    color: rgb(48, 5, 5);
+}
+
+.felix_container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+}
+
+.felix_container img {
+    width: 50%;
+    margin-left: 2rem;
+    border-radius: 70%;
+    border: 1%;
+}
+
+img {
+    height: 40px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.felix_container p {
+    font-size: 30px;
+    width: 50%;
+}
+
+.footer {
+    background-color: rgba(8, 8, 8, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quick a {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscrabe {
+    border: 2px solid rgb(23, 139, 62);
+    padding: 10px 20px 20px 20px;
+}
+
+.subscrabe article {
+    padding-bottom: 10px;
+}
+
+.subscrabe article button {
+    color: rgb(37, 9, 102);
+    background-color: rgb(116, 10, 10);
+    border-radius: 10px;
+}
+
+.index_container {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 40%;
+}
+
+.service_box {
+    padding: 10px;
+    border-right-color: rgb(12, 12, 20);
+}
+
+.desease {
+    padding: 10px;
+}
+
+.btn {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10%;
+    color: aqua;
+
+}
+
+/*blog styling*/
+.blog {
+    width: 100%;
+    background-color: #aaaeb4;
+}
+
+.container-card {
+    margin-left: 25px;
+}
+
+.container-card-1 {
+    display: flex;
+}
+
+.blog-card img {
+    width: 90%;
+    border-radius: 4%;
+    box-shadow: aqua;
+    height: 200px;
+}
+
+.blog-card div {
+    width: 90%;
+    color: rgb(214, 233, 233);
+    margin-top: 15px;
+}
+
+.blog-card h5 {
+    color: rgb(88, 230, 230);
+    font-size: 1rem;
+}
+
+.blog-card {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 3%;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 0px gray;
+}
+
+.container-card-2 {
+    display: flex;
+}
+
+.blog .blog-card {
+    width: 33.3%;
+}
+
+.blog-icon .icon-container {
+    padding-right: 35px;
+}
+
+.blog-icon .icon-container .counts {
+    font-size: 14px;
+}
+
+.blog-icon span i {
+    padding-right: 5px;
+}
+
+.ourservice {
+    align-items: center;
+    margin-left: 30rem;
+    font-size: 4rem;
+}
+
+.ourservice span {
+    color: rgb(65, 87, 182);
+    padding: 2rem
+}
+
+/*====================login styling======*/
+
+
+.book {
+    position: relative;
+    margin: 5% auto;
+    width: 600px;
+    height: 500px;
+    background: rgb(28, 160, 68);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    text-align: center;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 400px;
+    height: 500px;
+    
+}
+h1 {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 321px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+p{
+font-size: 15px;
+}
+p a{
+    color: rgb(228, 218, 218);
+}
+/*===========================================*/
+
+.container1 {
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 60%;
+    padding: 40px;
+    background: #1c00b5;
+    color: rgb(41, 10, 126);
+
+}
+
+h1 {
+    margin-bottom: 10px;
+
+}
+
+.container p {
+    margin-bottom: 40px;
+
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00;
+}
+
+button {
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+.contact-left h3 {
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.contact-right h3 {
+
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+tr td:first-child {
+    padding-right: 20px;
+
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+.contact-left a {
+    padding-bottom: 10px;
+    background: #f8f8f8;
+    width: 300px;
+    border: none;
+    outline: none;
+    color: rgb(9, 112, 172);
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    margin-left: 100px;
+
+    padding-left: 50px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.font {
+    text-align: center;
+}
+.left p{
+    font-size: large;
+}
+a{
+    font-size: 25px;
+}.email-error{
+    color: rgb(102, 11, 11);
+    padding-bottom: -2rem;
+    background-color: rgb(122, 50, 216);
+}
+.passcode{
+    color: red;
+    background-color: rgb(130, 20, 233);
+}
+.font{
+    color: red;
+    background-color: rgb(101, 19, 207);
+    font-size: 20px;
+    text-align: center;
+    text-decoration-color: brown;
+}
